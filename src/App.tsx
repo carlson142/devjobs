@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
 
-function App() {
+import { Route, Routes } from "react-router-dom";
+
+import HomePage from "./pages/HomePage/HomePage";
+import DetailsPage from "./pages/DetailsPage/DetailsPage";
+import NotFound from "./pages/NotFound/NotFound";
+import Header from "./components/Header";
+
+const Container = styled.main`
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+`;
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+      <Routes>
+        <Route path="/devjobs" element={<HomePage />} />
+        <Route path="/details/:id" element={<DetailsPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Container>
   );
-}
+};
 
 export default App;
