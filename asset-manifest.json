@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/devjobs/static/css/main.de8bf775.css",
+    "main.js": "/devjobs/static/js/main.0e4bbb3c.js",
+    "static/media/logo.svg": "/devjobs/static/media/logo.8c0b644930f3fa038b452bce0d4b876d.svg",
+    "static/media/icon-sun.svg": "/devjobs/static/media/icon-sun.9422c1533b01125b84568d2f0c6212b9.svg",
+    "static/media/bg-pattern-header.svg": "/devjobs/static/media/bg-pattern-header.f3307602ee5e7c6b4f50428cf0794a8c.svg",
+    "index.html": "/devjobs/index.html",
+    "static/media/icon-moon.svg": "/devjobs/static/media/icon-moon.038e80ca9ba2097f62576a3abd76df81.svg",
+    "static/media/icon-location.svg": "/devjobs/static/media/icon-location.325ff3d99912e5505f5cf31f67518b0c.svg",
+    "static/media/icon-search.svg": "/devjobs/static/media/icon-search.09900c2e3c8743161876925423fc7460.svg",
+    "main.de8bf775.css.map": "/devjobs/static/css/main.de8bf775.css.map",
+    "main.0e4bbb3c.js.map": "/devjobs/static/js/main.0e4bbb3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de8bf775.css",
+    "static/js/main.0e4bbb3c.js"
+  ]
+}
