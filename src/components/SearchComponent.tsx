@@ -211,11 +211,11 @@ const SearchComponent: React.FC = () => {
   );
 
   const handleMainSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    dispatch(setMainSearch(e.target.value));
+    dispatch(setMainSearch(e.target.value.toLowerCase()));
   };
 
   const handleLocationSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    dispatch(setLocationSearch(e.target.value));
+    dispatch(setLocationSearch(e.target.value.toLowerCase()));
   };
 
   // CLICK ON SEARCH BUTTON
