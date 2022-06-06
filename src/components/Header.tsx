@@ -117,7 +117,7 @@ const Header: React.FC = () => {
 
   return (
     <Container>
-      <LogoContainer to="/devjobs">
+      <LogoContainer to="/devjobs/">
         <Logo src={logo} alt={logo} onClick={handleUpdate} />
       </LogoContainer>
 

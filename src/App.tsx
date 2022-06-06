@@ -19,7 +19,7 @@ const App: React.FC = () => {
     <Container>
       <Header />
       <Routes>
-        <Route path="/devjobs" element={<HomePage />} />
+        <Route path="/devjobs/" element={<HomePage />} />
         <Route path="/details/:id" element={<DetailsPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
